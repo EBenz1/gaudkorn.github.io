@@ -1,0 +1,35 @@
+.header-gallery h1{
+    text-align: center;
+    padding: 0 30px;
+}
+.header-gallery p{
+    text-align: center;
+    padding: 0 30px;
+}
+.header-gallery span{
+    border-bottom: 5px solid rgb(78, 118, 248);
+}
+.header-gallery{
+    text-align: left;
+}
+.header-gallery h2{
+    font-size: 2rem;
+    padding: 0 20px;
+}
+ul.gallery li{
+    list-style: none;
+    padding: 20px 20px;
+}
+.gallery a{
+    transition: 0.5s ease-in-out;
+}
+.gallery li:hover a{
+    color: #262626;
+    background-color: rgb(78, 118, 248);
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 10px;
+}
+.gallery li:hover i{
+    color: #fff;
+}

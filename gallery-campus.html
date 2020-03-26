@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="https://kit.fontawesome.com/c2fa1b074d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="theme-color" content="#9FC1F0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/image/fav.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/image/fav.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/image/fav.jpg">
+    <link rel="manifest" href="assets/image/fav.jpg">
+    <title>GAUDKORN Official</title>
+</head>
+
+<body>
+    <nav id="menu">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="assets/image/fav.jpg" alt="GAUDKRON LOGO"
+                onclick="document.location = 'index.html'"></label>
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about-korn.html">รู้จักก่อนกัน</a></li>
+            <li><a href="#">บทความและบทสัมภาษณ์</a></li>
+            <li><a class="active"  href="gallery-korn.html">คลังรูปก่อน</a></li>
+            <li><a href="#">แฟนซอง & แฟนแคม</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!---------------------------------------------IMAGE SLIDE--------------------------------->
+        <div class="header-gallery">
+            <h1 style="padding: 50px 0 0 0;"><span>คลังรูปก่อน</span></h1>
+            <p style="padding: 10px 0 50px 0;"><i class="sub">Gallery of Korn</i></p>
+            
+        </div>
+        <h1 style="padding:30px 0;">@The Campus</h1>
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_001 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_002 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_003 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_004 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_005 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_006 Theaters.jpg" alt="">
+                </div>
+                
+                
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_001 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_002 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_003 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_004 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_005 Theaters.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/image/gallery/Theaters/KORN_006 Theaters.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+      
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+    </div>
+    <!---------------------------------------------FOOTTER------------------------------------------>
+    <footer>
+        <div class="footer-item">
+            <p> Copyright &copy; 2020 <span>GAUDKORN</span>, All right Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <!------------------------------ SCRIRT -------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/back-to-top.js"></script>
+    </script>
+    <script>
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
+    </script>
+</body>
+
+</html>

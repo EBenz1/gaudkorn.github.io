@@ -1,0 +1,128 @@
+iframe{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.main-about{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about-img img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 75%;
+}
+.about-text{
+    text-align: left;
+    line-height: 60px;
+}
+h1.header{
+    display: none;
+}
+.about-text p{
+    color: gray;
+}
+.about-text h1{
+    font-size: 2.5rem;
+}
+.about-text h2{
+    font-size: 1rem;
+}
+.about-layout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1rem;
+}
+.about-layout h5{
+    font-size: 1rem;
+}
+.about-social{
+    margin: 20px 0;
+}
+.about-social li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+.about-social a{
+    font-size: 2rem;
+    transition: 0.5s ease-in-out;
+}
+.about-social a.fb{
+    color: rgb(36, 131, 248);
+}
+.about-social:hover a.fb{
+    color: rgb(7, 84, 250);
+}
+.about-social a.ig{
+    color: rgb(255, 0, 85);
+}
+.about-social:hover a.ig{
+    color: rgb(216, 4, 75);
+}
+
+
+
+
+.main-blog-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-2-img img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.blog-2-text{
+    padding: 20% 10%;
+}
+.blog-2-text a{
+    padding: 20px 0;
+}
+.credit{
+    padding: 10% 0;
+}
+
+
+section.banner-2{
+    background-image: url("../image/banner/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color : #fff;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.main-banner-3
+{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-3 img
+{
+    width: 75%;
+    box-shadow: 5px 5px 5px 0px gray;
+    border-radius: 10px;
+}
+.banner-3-text
+{
+    line-height: 50px;
+}
+.banner-3-text p{
+    text-indent: 2%;
+}
+.about-layout p{
+    color: gray;
+}
+p.about-jubjang{
+    text-indent: 5%;
+    color: #262626;
+}
