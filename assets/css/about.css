@@ -13,7 +13,7 @@ iframe{
 }
 .about-img img{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: 5px 10px 50px 5px gray;
     width: 75%;
 }
 .about-text{
@@ -64,6 +64,9 @@ h1.header{
 .about-social:hover a.ig{
     color: rgb(216, 4, 75);
 }
+.about-social a.yt{
+    color: rgb(255, 2, 2);
+}
 
 
 
@@ -74,7 +77,7 @@ h1.header{
 }
 .blog-2-img img{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: 20px 20px 50px 5px gray;
 }
 .blog-2-text{
     padding: 20% 10%;
@@ -125,4 +128,8 @@ section.banner-2{
 p.about-jubjang{
     text-indent: 5%;
     color: #262626;
+}
+
+.swiper-slide img{
+    box-shadow: 0px 20px 50px 5px grey;
 }

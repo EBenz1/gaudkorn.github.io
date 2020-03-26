@@ -10,7 +10,7 @@
     border-bottom: 5px solid rgb(78, 118, 248);
 }
 .header-gallery{
-    text-align: left;
+    text-align: center;
 }
 .header-gallery h2{
     font-size: 2rem;
@@ -22,14 +22,4 @@ ul.gallery li{
 }
 .gallery a{
     transition: 0.5s ease-in-out;
-}
-.gallery li:hover a{
-    color: #262626;
-    background-color: rgb(78, 118, 248);
-    border-radius: 30px;
-    color: #fff;
-    padding: 10px 10px;
-}
-.gallery li:hover i{
-    color: #fff;
 }

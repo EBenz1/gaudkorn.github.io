@@ -103,10 +103,8 @@ span.underline{
 
 /**************************************************** GALLERY *******************************/
 section.gallery{
-    background-color: rgb(189, 189, 250);
     text-align: left;
     padding: 20px 20px;
-    color: rgb(13, 69, 255);
 }
 section.gallery h1
 {
@@ -132,7 +130,6 @@ section.galley h1
 {
     width: 100%;
     transition: 0.5s ease-in-out;
-    box-shadow: 5px 5px 5px 5px gray;
 }
 .item-1 a {
     opacity: 0;
@@ -237,6 +234,11 @@ section.bottom{
 }
 .follow-korn a.tw:hover{
     background-color: rgb(13, 138, 255);
+    color: #fff;
+    border: 2px solid transparent;
+}
+.follow-korn a.email:hover{
+    background-color: rgb(255, 7, 7);
     color: #fff;
     border: 2px solid transparent;
 }
